@@ -1,10 +1,9 @@
-import styled from 'styled-components'
+import Layout from '../pages/components/Layout'
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
-
-export default function Home() {
-  return <Title>Hello world</Title>
+export default function App () {
+  return <>
+    <Layout>
+      
+    </Layout>
+  </>
 }
